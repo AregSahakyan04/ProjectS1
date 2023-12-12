@@ -130,6 +130,7 @@ void deleteRecord(struct CarTradeRecord *trades) {
 void searchRecord(struct CarTradeRecord *trades) {
     
     char usernameToSearch[50];
+    
     printf("Enter seller's username to search: ");
     scanf("%s", usernameToSearch);
 
